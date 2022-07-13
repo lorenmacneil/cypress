@@ -1,1 +1,6 @@
-/.idea/
+# IDE Artifacts
+.idea
+.vscode
+
+# misc
+.DS_Store
