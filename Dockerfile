@@ -56,7 +56,7 @@ USER $USER
 WORKDIR /home/$USER
 
 # Install Cypress
-RUN npm install -g "cypress@10.2.0" && cypress verify \
+RUN npm install -g "cypress@10.3.0" && cypress verify \
     && cypress cache path \
     && cypress cache list \
     && cypress info \
